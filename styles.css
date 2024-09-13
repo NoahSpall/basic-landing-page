@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'chill-writing';
+    src: url('/Fonts/chill-writing/ShiftyNotesRegular-BWZ6d.ttf') format('truetype');
+    font-family: 'lofilifestyle';
+    src: url('/Fonts/lofilifestyle/LofilifestyleRegular-K7Kz7.otf') format('opentype'), 
+         url('/Fonts/lofilifestyle/LofiLifestyleRegular-2OM9v.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;  
+  }
+
+  @font-face {
+    font-family: 'chill-writing';
+    src: url('/Fonts/chill-writing/ShiftyNotesRegular-BWZ6d.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;  
+  }
+
+body {
+    background-color: #ffffff ;
+    margin: 0;
+    padding: 0;
+    font-family: 'lofilifestyle', sans-serif; 
+    overflow-x: hidden;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #004c4c ;
+}
+
+.headerlinks {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 30px;
+    align-items: center;
+    margin: 30px;
+
+}
+
+a{
+    text-decoration: none;
+    color: rgb(79, 230, 230);
+}
+
+.logo {
+    margin-left: 30px;
+    height: 90px;
+    align-self: flex-end;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    height: 800px;
+    align-items: center;
+}
+
+.hero-image {
+    width: 400px;
+    height: 500px;
+    display: flex;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 70px;
+    font-size: 30px;
+    line-height: 1.3;
+}
+
+.hero-text p{
+    font-size: 25px;
+    line-height: 1.5;
+    margin-top: 0px;
+}
+
+.my-services {
+    background-color: #0caaaa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1200px;
+}
+
+.my-services h2 {
+    color: white;
+    margin-top: 160px;
+    font-size: 45px;
+}
+
+.services-list {
+    width: 80%;
+    display: flex;
+    margin-top: 120px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    line-height: 0.2;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+ ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;  
+ }
+
+
+.item {
+    background-color: #016b6b70;
+    height: 250px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.item-heading {
+    font-size: 30px;
+    line-height: 1;
+}
+
+.item-image {
+    width: 150px;
+}
+
+footer {
+    background-color: #004c4c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: white;
+    font-size: 25px;
+}
