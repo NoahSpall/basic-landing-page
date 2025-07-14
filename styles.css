@@ -74,15 +74,16 @@ Hero Section
 #Hero {
     height: 100vh; 
     width: 100%;
-    background: white;
+    background:  rgb(180, 220, 236);
     position: relative;
 }
 
 .heroContent {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 20px;
     height: 85vh;
+    width: 100%;
     background: rgb(180, 220, 236);
     align-items: center;
     position: fixed;
