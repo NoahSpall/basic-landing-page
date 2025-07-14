@@ -1,12 +1,18 @@
 @font-face {
     font-family: 'chill-writing';
     src: url('/Fonts/chill-writing/ShiftyNotesRegular-BWZ6d.ttf') format('truetype');
-    font-family: 'lofilifestyle';
-    src: url('/Fonts/lofilifestyle/LofilifestyleRegular-K7Kz7.otf') format('opentype'), 
-         url('/Fonts/lofilifestyle/LofiLifestyleRegular-2OM9v.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;  
   }
+
+  @font-face {
+    font-family: 'Lofilifestyle';
+    src: url('/Fonts/lofilifestyle/LofiLifestyleRegular-2OM9v.ttf') format('truetype'),
+         url('/Fonts/lofilifestyle/LofilifestyleRegular-K7Kz7.otf') format('opentype'),;
+    font-weight: normal;
+    font-style: normal;
+  }
+  
 
   @font-face {
     font-family: 'chill-writing';
@@ -19,7 +25,7 @@ body {
     background-color: #ffffff ;
     margin: 0;
     padding: 0;
-    font-family: 'lofilifestyle', sans-serif; 
+    font-family: 'Lofilifestyle', sans-serif; 
     overflow-x: hidden;
 }
 
